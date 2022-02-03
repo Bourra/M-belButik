@@ -6,8 +6,12 @@ namespace MöbelButik
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Products.GetProducts();
+            Console.WriteLine("Välkommen Till vår Webbshop!");
+
+            Console.WriteLine("__________________________________________");
+            
+            Meny.MenyVal();
+         
         }
     }
 }
